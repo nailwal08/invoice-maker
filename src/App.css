@@ -1,0 +1,105 @@
+body,
+html {
+  font-size: 0.9rem;
+  background: #c4b9b9;
+}
+
+body,
+.form-control {
+  font-size: 0.9rem
+}
+
+body,
+html,
+#root,
+.App {
+  min-height: 100vh
+}
+
+.btn-custom {
+  font-size: 0.9rem;
+  font-weight: 400;
+  padding: 0.66rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, .05) !important
+}
+
+
+.btn-light {
+  border-color: #dedede
+}
+
+.btn-light:hover {
+  border-color: #dedede;
+  background-color: #f3f3f3
+}
+
+.shadow {
+  box-shadow: 0 .1rem .1rem rgba(0, 0, 0, .05) !important
+}
+
+.modal-content,
+.card {
+  overflow: hidden;
+  border-radius: 0.756rem
+}
+
+hr {
+  opacity: 0.4
+}
+
+.table th {
+  border-top: 1px solid #0000001a;
+  border-bottom: 1px solid #0000001a;
+  border-bottom-color: #0000001a !important
+}
+
+.table td {
+  text-align: left;
+}
+
+.table tr th:first-child,
+.table tr td:first-child {
+  padding-left: 0
+}
+
+.table tr th:last-child,
+.table tr td:last-child {
+  padding-right: 0
+}
+
+.form-control {
+  background: #e4ebf3;
+  font-weight: 400;
+  padding: .5rem .75rem;
+
+
+}
+
+.form-control:hover {
+  background: #ffffff;
+}
+
+.form-control::placeholder,
+.form-control::-ms-input-placeholder,
+.form-control:-ms-input-placeholder {
+  color: #a4b09f
+}
+
+.form-control:focus {
+  background: #b9f3c8;
+
+}
+
+#invoiceCapture {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.custom-hover:hover {
+  background-color: aquamarine;
+  color: black;
+  box-shadow: 1px 4px 8px rgba(0, 0, 0, 0.6);
+}
